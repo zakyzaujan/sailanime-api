@@ -1,7 +1,6 @@
-````markdown
 # SailAnime API
 
-API Node.js + Express untuk scraping data anime dari AnimeSail menggunakan Puppeteer + Cheerio.
+API Node.js + Express untuk scraping data anime dari AnimeSail menggunakan Puppeteer & Cheerio.
 
 ---
 
@@ -23,10 +22,9 @@ API Node.js + Express untuk scraping data anime dari AnimeSail menggunakan Puppe
 ```bash
 git clone https://github.com/zakyzaujan/sailanime-api.git
 cd sailanime-api
-npm install express puppeteer cheerio
+npm install
 node server.js
 ```
-````
 
 Server berjalan di `http://localhost:5000`.
 
@@ -73,7 +71,8 @@ Server berjalan di `http://localhost:5000`.
     "musim": "Spring 2013",
     "sinopsis": "Eren Yeager bertekad …",
     "episodes": [
-      { "title":"Attack on Titan Episode 1 Subtitle Indonesia",
+      {
+        "title":"Attack on Titan Episode 1 Subtitle Indonesia",
         "href":"https://154.26.137.28/attack-on-titan-episode-1/"
       },
       …
@@ -92,7 +91,8 @@ Server berjalan di `http://localhost:5000`.
     "title": "Attack on Titan Episode 1 Subtitle Indonesia",
     "episode_number": "1",
     "mirrors": [
-      { "label":"acefile 720p",
+      {
+        "label":"acefile 720p",
         "embedHtml":"<iframe src=\"...\"…></iframe>"
       },
       …

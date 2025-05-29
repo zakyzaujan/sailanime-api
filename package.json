@@ -13,6 +13,9 @@
   "dependencies": {
     "cheerio": "^1.0.0",
     "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "p-map": "^7.0.3",
+    "path": "^0.12.7",
     "puppeteer": "^24.9.0"
   }
 }

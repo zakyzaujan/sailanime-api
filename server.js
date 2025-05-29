@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
   
   GET  /export/anime-list.csv          -> CSV: id, group, nama, url.
   GET  /export/anime-list-detail.csv   -> CSV: detail tiap anime (tanpa daftar episode).
+  GET  /export/anime-episodes.csv      -> CSV: daftar episode lengkap (dengan mirrors).
   </pre>
   `);
 });
